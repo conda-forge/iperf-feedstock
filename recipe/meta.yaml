@@ -12,9 +12,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
-  script: ./configure && make && make install 
+  script: ./configure --prefix="${PREFIX}" && make && make install
 
 requirements:
   build:
