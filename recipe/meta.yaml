@@ -21,7 +21,7 @@ requirements:
     - toolchain 
 
 test:
-  command:
+  commands:
     - iperf --help
 
 about:
