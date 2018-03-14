@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - iperf --help
+    - iperf3 --help
 
 about:
   home: http://software.es.net/iperf/
