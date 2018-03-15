@@ -17,10 +17,6 @@ build:
 requirements:
   build:
     - toolchain
-    - make
-    - gcc
-  run:
-    - libgcc
 
 test:
   commands:
