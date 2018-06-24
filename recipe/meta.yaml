@@ -16,7 +16,8 @@ build:
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+  host:
 
 test:
   commands:
@@ -33,4 +34,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - brainstorm 
+    - brainstorm
