@@ -13,10 +13,12 @@ source:
 
 build:
   number: 0
+  skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - make
 
 test:
   commands:
