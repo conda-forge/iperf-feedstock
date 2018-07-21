@@ -1,6 +1,6 @@
 {% set name = "iperf" %}
-{% set version = "3.5" %}
-{% set sha256 = "4c318707a29d46d7b64e517a4fe5e5e75e698aef030c6906e9b26dc51d9b1fce" %}
+{% set version = "3.6" %}
+{% set sha256 = "1ad23f70a8eb4b892a3cbb247cafa956e0f5c7d8b8601b1d9c8031c2a806f23f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,10 +13,12 @@ source:
 
 build:
   number: 0
+  skip: True  # [win]
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+    - make
 
 test:
   commands:
