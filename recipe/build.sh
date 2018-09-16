@@ -1,5 +1,4 @@
-export CFLAGS="${CFLAGS} -fPIC"
-
-./configure --prefix="${PREFIX}"
+./configure --prefix="${PREFIX}" \
+            --enable-pic
 make
 make install
