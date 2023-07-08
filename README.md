@@ -1,11 +1,11 @@
-About iperf
-===========
+About iperf-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iperf-feedstock/blob/main/LICENSE.txt)
 
 Home: http://software.es.net/iperf/
 
 Package license: PUBLIC-DOMAIN
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iperf-feedstock/blob/main/LICENSE.txt)
 
 Summary: A TCP, UDP, and SCTP network bandwidth measurement tool
 
