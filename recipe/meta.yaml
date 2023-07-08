@@ -1,6 +1,6 @@
 {% set name = "iperf" %}
-{% set version = "3.13" %}
-{% set sha256 = "a49d23fe0d3b1482047ad7f3b9e384c69657a63b486c4e3f0ce512a077d94434" %}
+{% set version = "3.14" %}
+{% set sha256 = "bbafa2c9687f0f7fe00947dc779b83c91663911e22460005c0ad4623797b3dbd" %}
 
 package:
   name: {{ name|lower }}
